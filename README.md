@@ -1,15 +1,45 @@
-# AzureSynapseETL
-This project is basically a demonstration of a basic ETL pipeline using Azure Synapse Analytics.
+# 🚀 Azure Synapse Analytics Data Ingestion Project
 
-## Architecture
-![image](https://user-images.githubusercontent.com/58943959/196272757-d4483ca4-b7ea-4b71-8db1-e4b09f425c3a.png)
+## 📌 Overview
+This project demonstrates how to ingest raw data in CSV and Parquet formats into Azure Synapse Analytics. The data is stored in Azure Data Lake Storage Gen2 by default and processed using Azure Synapse capabilities. The project is designed to provide hands-on experience with data ingestion, transformation, and querying in Synapse Analytics.
 
-## Prerequisites
-1. An Azure Account
-2. Basic Knowledge of Python/PySpark
+## ✅ Prerequisites
+Before you begin, ensure you have the following:
+- 🔹 An **Azure Account** with access to Azure Synapse Analytics and Azure Data Lake Storage Gen2.
+- 🔹 Basic knowledge of **Python/PySpark** for working with data in Synapse.
+- 🔹 The raw data in **CSV and Parquet format** ready for ingestion.
 
-The raw data in CSV and Parquet format is ingested into Azure Synapse Analytics. The files are stored by default into Azure DataLake Storage Gen 2.
+## 🎯 Project Scope
+- 📥 **Data Ingestion:** Load raw data into Azure Synapse Analytics from Azure Data Lake Storage Gen2.
+- 🔄 **Data Processing:** Utilize Azure Synapse pipelines and notebooks to transform and analyze the ingested data.
+- 📊 **Querying & Reporting:** Use Synapse SQL to query data for insights and analytics.
 
-You can find the link to the project presentation here: https://docs.google.com/presentation/d/1qoqlc4f7_fBXZU2NhXjXs4s2ORLo3peQqkk2JfPi3q0/edit#slide=id.g35f391192_00
+## 🛠️ Setup Instructions
+1. **Provision Azure Synapse Analytics:**
+   - 🏗️ Create a Synapse workspace in Azure.
+   - 🗄️ Set up an Azure Data Lake Storage Gen2 account for raw data storage.
+   
+2. **Upload Data to Data Lake Storage Gen2:**
+   - 📂 Store CSV and Parquet files in a designated container within the storage account.
+   
+3. **Configure Linked Services in Synapse:**
+   - 🔗 Connect Synapse Analytics to the Data Lake Storage account.
+   - 🔐 Ensure necessary permissions and roles are assigned.
+   
+4. **Ingest Data into Synapse:**
+   - 🚛 Use Synapse Pipelines or notebooks to load data into dedicated SQL pools.
+   - 🐍 Utilize PySpark in Synapse notebooks for additional transformations.
 
-code credit from @dvannoy from https://github.com/datakickstart: https://github.com/datakickstart/synapse_examples/blob/main/data_lake_load.ipynb
+5. **Run Queries in Synapse SQL:**
+   - 🧐 Execute SQL queries on the ingested data to validate and analyze the results.
+   
+## 📚 Resources
+- 📖 Project Presentation: [View Here](https://docs.google.com/presentation/d/1qoqlc4f7_fBXZU2NhXjXs4s2ORLo3peQqkk2JfPi3q0/edit#slide=id.g35f391192_00)
+- 📝 Sample Code from @dvannoy: [GitHub Repository](https://github.com/datakickstart/synapse_examples/blob/main/data_lake_load.ipynb)
+
+## 📜 License
+This project includes code credited to [@dvannoy](https://github.com/datakickstart) and follows the licensing terms provided in the linked GitHub repository.
+
+## 📩 Contact
+For any inquiries or contributions, feel free to reach out or open an issue in the project repository.
+

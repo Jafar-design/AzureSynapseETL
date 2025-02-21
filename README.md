@@ -3,6 +3,9 @@
 ## 📌 Overview
 This project demonstrates how to ingest raw data in CSV and Parquet formats into Azure Synapse Analytics. The data is stored in Azure Data Lake Storage Gen2 by default and processed using Azure Synapse capabilities. The project is designed to provide hands-on experience with data ingestion, transformation, and querying in Synapse Analytics.
 
+## Architecture
+![image](https://user-images.githubusercontent.com/58943959/196272757-d4483ca4-b7ea-4b71-8db1-e4b09f425c3a.png)
+
 ## ✅ Prerequisites
 Before you begin, ensure you have the following:
 - 🔹 An **Azure Account** with access to Azure Synapse Analytics and Azure Data Lake Storage Gen2.
